@@ -10,4 +10,4 @@ bill = float(input("What was the total bill? ").strip().replace("$", ""))
 tip = float(input("What percentage would you like to tip? 10, 12,15? ").strip().replace("%", ""))/100
 num_people = int(input("How many people to split the bill? "))
 amount_to_pay = round((bill*(tip+1)/num_people),2)
-print(f"Each person should pay: ${amount_to_pay}")
+print(f"Each person should pay: ${amount_to_pay:2f}")
