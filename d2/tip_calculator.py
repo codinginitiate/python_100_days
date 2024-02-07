@@ -6,5 +6,5 @@ Thus everyone's share of the total bill is $30.00 plus a $3.60 tip.
 Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 '''
 print("Welcom to the tip calculator.")
-bill = input("What was the total bill? ").strip().replace("$", "")
-print(bill)
+bill = float(input("What was the total bill? ").strip().replace("$", ""), 2)
+print(type(bill))
