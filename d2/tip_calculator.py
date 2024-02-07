@@ -7,5 +7,6 @@ Tip: There are 2 ways to round a number. You might have to do some Googling to s
 '''
 print("Welcome to the tip calculator.")
 bill = float(input("What was the total bill? ").strip().replace("$", ""))
-tip = float(input(What percentage would you like to tip? 10, 12,15? "))/100
-print(tip)
+tip = float(input("What percentage would you like to tip? 10, 12,15? "))/100
+num_people = int(input("How many people to split the bill? "))
+amount_to_pay = (bill*(tip+1)
