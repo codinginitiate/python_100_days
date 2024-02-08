@@ -29,3 +29,7 @@ print("Your mission is to find the treasure.")
 
 direction = input("You are at a cross road. Where do you want to go? Type 'left' or 'right'")
 if direction == 'left':
+    river == input("You come upon a river)
+else:
+    print("You fall into a deep cravasse. Game Over.")
+
