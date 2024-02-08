@@ -27,4 +27,4 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 
-
+direction = input("You are at a cross)
