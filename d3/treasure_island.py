@@ -31,7 +31,7 @@ direction = input("You are at a cross road. Where do you want to go? Type 'left'
 if direction == "left":
     cross_river = input("You come upon a river. How do you wish to cross the river? Type 'swim' or 'boat'")
     if cross_river == "boat":
-        door = input(")
+        door = input("You have crossed the river and )
 
 else:
     print("You fall into a deep cravasse. Game Over.")
