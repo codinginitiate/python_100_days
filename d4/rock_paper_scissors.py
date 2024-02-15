@@ -33,5 +33,5 @@ my_choice = input("What is your choice rock, paper, or scissors)? ")
 print(str(my_choice))
 set = ['rock', 'paper', 'scissors']
 computer = random.choice(set)
-print(str(computer))
+print()
 
