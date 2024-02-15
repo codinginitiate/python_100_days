@@ -23,5 +23,5 @@ print(password_easy)
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 password_hard = [password_easy]
-print(len(password_hard))
+print(len([password_hard]))
 
