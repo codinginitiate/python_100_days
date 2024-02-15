@@ -27,4 +27,4 @@ scissors = '''
 
 #Write your code below this line 👇
 
-choice = input("What is your choice)
+choice = input("What is your choice (r)ock, (p)aper, or (s)cissors)? ")
