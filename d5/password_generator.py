@@ -21,3 +21,11 @@ print("")
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+rand_list = []
+for _ in range(nr_letters):
+    rand_list = rand_list.append(random.choice(letters))
+for _ in range(nr_symbols):
+    rand_list = rand_list.append(random.choice(symbols))
+for _ in range(nr_numbers):
+    rand_list = rand_list.append(random.choice(numbers))
+print(rand_list)
