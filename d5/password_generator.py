@@ -31,5 +31,5 @@ for _ in range(nr_numbers):
 
 rand_list = random.shuffle(rand_list)
 for i in range(len([rand_list])):
-    print(rand_list[i], end="")
+    print(i, end="")
 print
