@@ -29,7 +29,7 @@ scissors = '''
 
 #Write your code below this line 👇
 set = [rock, paper, scissors]
-my_choice = input("What is your choice (1)rock , (2)paper, or (3)scissors? Enter number: ")
+my_choice = input("What is your choice (1)rock , (2)paper, or (3)scissors? Enter a number: ")
 print(set[int(my_choice)-1])
 computer = random.choice(set)
 print(computer)
