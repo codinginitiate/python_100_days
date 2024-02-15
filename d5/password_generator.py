@@ -29,5 +29,5 @@ for i in password_easy:
 random.shuffle(password_hard)
 for i in password_hard:
     ph += i
-print(ph)
+print(f"Your password is {ph}")
 
