@@ -29,7 +29,7 @@ for _ in range(nr_symbols):
 for _ in range(nr_numbers):
     rand_list.append(random.choice(numbers))
 
-rand_list = random.shuffle(rand_list)
+rand_list = shuffle(rand_list)
 for i in range(len([rand_list])):
     print(i, end="")
 print
