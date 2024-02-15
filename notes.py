@@ -1,8 +1,6 @@
 import random
 
-rn = random.randint(0,5)
+side = ['heads', 'tails']
 
-rf = random.random()
 
-print(rf*5)
-
+print(random.choice(side))
