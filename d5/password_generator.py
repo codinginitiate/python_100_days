@@ -30,7 +30,9 @@ for _ in range(nr_numbers):
     rand_list.append(random.choice(numbers))
 print(rand_list)
 for i in range(len(rand_list)):
-    print(rand_list[i])
+    x = rand_list[i]
+    random.shuffle(x)
+    print(x)
 '''
 for i in range(len([rand_list])):
     print(i, end="")
