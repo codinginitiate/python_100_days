@@ -29,10 +29,9 @@ for _ in range(nr_symbols):
 for _ in range(nr_numbers):
     rand_list.append(random.choice(numbers))
 print(rand_list)
-for i in range(len(rand_list)):
-    x = rand_list[i]
-    random.shuffle(x)
-    print(x)
+x = [i for i in range(len(rand_list))]
+random.shuffle(x)
+print(x)
 '''
 for i in range(len([rand_list])):
     print(i, end="")
