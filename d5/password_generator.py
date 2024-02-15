@@ -24,5 +24,6 @@ print(password_easy)
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 password_hard = [password_easy]
 random.shuffle(password_hard)
-print(password_hard)
+for _ in password_hard:
+    print(_)
 
