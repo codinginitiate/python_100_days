@@ -23,9 +23,13 @@ print(password_easy)
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 password_hard = []
+ph=""
 for i in password_easy:
     password_hard.append(i)
 print(password_hard)
 random.shuffle(password_hard)
 print(password_hard)
+for i in password_hard:
+    ph += i
+print(ph)
 
