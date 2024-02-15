@@ -27,4 +27,4 @@ scissors = '''
 
 #Write your code below this line 👇
 
-choice 
+choice = input("What is your choice)
