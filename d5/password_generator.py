@@ -17,7 +17,6 @@ for _ in range(nr_symbols):
     print(random.choice(symbols), end = "")
 for _ in range(nr_numbers):
     print(random.choice(numbers), end = "")
-
 print("")
 
 #Hard Level - Order of characters randomised:
