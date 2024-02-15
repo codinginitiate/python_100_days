@@ -30,5 +30,6 @@ scissors = '''
 #Write your code below this line 👇
 
 my_choice = input("What is your choice (r)ock, (p)aper, or (s)cissors)? ")
-computer = random.choice('rock', 'paper', 'scissors')
+set = ['rock', 'paper', 'scissors']
+computer = random.choice(set)
 print(computer)
