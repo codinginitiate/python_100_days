@@ -18,7 +18,7 @@ for _ in range(nr_symbols):
     password_easy += random.choice(symbols)
 for _ in range(nr_numbers):
     password_easy += random.choice(numbers)
-print(password_easy)
+print(f"Your easy password is {password_easy}")
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
@@ -29,5 +29,5 @@ for i in password_easy:
 random.shuffle(password_hard)
 for i in password_hard:
     ph += i
-print(f"Your password is {ph}")
+print(f"Your hard password is {ph}")
 
