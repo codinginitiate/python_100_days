@@ -28,9 +28,9 @@ scissors = '''
 '''
 
 #Write your code below this line 👇
-
-my_choice = input("What is your choice rock, paper, or scissors)? ")
-print(my_choice)
+set = [rock, paper, scissors]
+input = input("What is your choice rock, paper, or scissors)? ")
+print(set[])
 set = [rock, paper, scissors]
 computer = random.choice(set)
 print(type(computer))
