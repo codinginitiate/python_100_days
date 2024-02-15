@@ -33,4 +33,8 @@ my_choice = input("What is your choice (1)rock , (2)paper, or (3)scissors? Enter
 print(set[int(my_choice)-1])
 computer = random.choice(set)
 print(computer)
-if 
+if set[int(my_choice)-1] == 'rock' and computer == 'scissors'
+    print("YOU WIN!")
+elif set[int(my_choice)-1] == 'scissors' and computer == 'paper':
+    print("YOU WIN)
+
