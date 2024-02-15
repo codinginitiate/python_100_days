@@ -29,4 +29,5 @@ for _ in range(nr_symbols):
 for _ in range(nr_numbers):
     rand_list.append(random.choice(numbers))
 for _ in len(rand_list):
+    
     print(random.choice(rand_list), end='')
