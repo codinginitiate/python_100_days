@@ -1,7 +1,8 @@
 import random
 
-rn = random.randint(1,10)
-print(rn)
+rn = random.randint(0,5)
 
-rf = (random.random()
-print(rf)
+rf = random.random()
+
+print(rf+rn)
+
