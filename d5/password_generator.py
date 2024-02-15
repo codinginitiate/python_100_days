@@ -28,8 +28,10 @@ for _ in range(nr_symbols):
     rand_list.append(random.choice(symbols))
 for _ in range(nr_numbers):
     rand_list.append(random.choice(numbers))
-
-rand_list = shuffle(rand_list)
+print(rand_list)
+print(random.shuffle(rand_list))
+'''
 for i in range(len([rand_list])):
     print(i, end="")
 print
+'''
