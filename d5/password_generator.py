@@ -31,5 +31,5 @@ for i in password_hard:
     ph += i
 print(ph)
 
-for i in range(4):
+for i in range(letters):
     print(i)
