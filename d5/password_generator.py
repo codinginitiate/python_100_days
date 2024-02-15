@@ -26,3 +26,4 @@ password_hard = []
 for i in password_easy:
     password_hard.append(i)
 print(password_hard)
+
