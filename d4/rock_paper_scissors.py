@@ -38,4 +38,10 @@ elif my_choice == 's':
     print(scissors)
 set = ['r', 'p', 's']
 computer = random.choice(set)
+if computer == 'r':
+    print(rock)
+elif computer == 'p':
+    print(paper)
+elif computer == 's':
+    print(scissors)
 
