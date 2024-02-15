@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -27,4 +29,6 @@ scissors = '''
 
 #Write your code below this line 👇
 
-choice = input("What is your choice (r)ock, (p)aper, or (s)cissors)? ")
+my_choice = input("What is your choice (r)ock, (p)aper, or (s)cissors)? ")
+computer = random.choice('rock', 'paper', 'scissors')
+print(computer)
