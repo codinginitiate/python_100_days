@@ -29,19 +29,9 @@ scissors = '''
 
 #Write your code below this line 👇
 
-my_choice = input("What is your choice (r)ock, (p)aper, or (s)cissors)? ")
-if my_choice == 'r':
-    print(rock)
-elif my_choice == 'p':
-    print(paper)
-elif my_choice == 's':
-    print(scissors)
-set = ['r', 'p', 's']
+my_choice = input("What is your choice rock, paper, or scissors)? ")
+print(my_choice)
+set = ['rock', 'paper', 'scissors']
 computer = random.choice(set)
-if computer == 'r':
-    print(rock)
-elif computer == 'p':
-    print(paper)
-elif computer == 's':
-    print(scissors)
+print(computer)
 
