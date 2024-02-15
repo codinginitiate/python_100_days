@@ -33,4 +33,4 @@ my_choice = input("What is your choice (1)rock , (2)paper, or (3)scissors? Enter
 print(set[int(my_choice)-1])
 computer = random.choice(set)
 print(computer)
-
+if 
