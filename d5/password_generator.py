@@ -31,5 +31,3 @@ for i in password_hard:
     ph += i
 print(ph)
 
-for i in range(1,nr_letters+1):
-    print(i)
