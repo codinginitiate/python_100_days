@@ -19,5 +19,6 @@ for position in range(word_length):
 for letter in chosen_word:
     print(f"{letter}")
     if guessed_letter == letter:
-        display[chosen_word.index(letter)]
+        display[chosen_word.index(letter)] == guessed_letter
+    print(display)
 
