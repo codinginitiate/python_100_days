@@ -18,6 +18,7 @@ for position in range(word_length):
 # above code block can be used for this code block
 for letter in chosen_word:
     if guessed_letter == letter:
+        print(chosen_word.index(letter))
         display[chosen_word.index(letter)] = guessed_letter
     print(display)
 
