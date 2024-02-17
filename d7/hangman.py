@@ -1,6 +1,6 @@
 
 import random
-word_list = ["aardvark", "baboon", "camel"]
+word_list = ["aardvark"]
 display = []
 
 chosen_word = random.choice(word_list)
