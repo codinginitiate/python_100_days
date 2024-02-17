@@ -10,9 +10,9 @@ for letter in chosen_word:
 
 guessed_letter=input("Guess a letter: ").lower()
 for position in range(word_length)
-for letter in chosen_word:
-    if guessed_letter == letter:
-        display[chosen_word.index(letter)] = guessed_letter
+    for letter in chosen_word:
+        if guessed_letter == letter:
+            display[position] = guessed_letter
 
 
 print(display)
