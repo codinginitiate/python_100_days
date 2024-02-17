@@ -7,6 +7,7 @@ chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 for letter in chosen_word:
     display.append("_")
+    
 while "_" in display:
     guessed_letter=input("Guess a letter: ").lower()
     '''
