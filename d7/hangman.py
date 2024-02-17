@@ -2,7 +2,8 @@
 import random
 word_list = ["aardvark"]
 display = []
-print("
+print
+
  /$$
 | $$
 | $$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$  /$$$$$$/$$$$   /$$$$$$  /$$$$$$$
@@ -14,7 +15,7 @@ print("
                                /$$  \ $$
                               |  $$$$$$/
                                \______/
-")
+
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 for letter in chosen_word:
