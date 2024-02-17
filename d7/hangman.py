@@ -20,6 +20,5 @@ for letter in chosen_word:
     if guessed_letter == letter:
         display[chosen_word.index(letter)] = guessed_letter
 
-a
 
 print(display)
