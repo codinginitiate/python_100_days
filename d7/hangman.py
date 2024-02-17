@@ -8,7 +8,7 @@ word_length = len(chosen_word)
 for letter in chosen_word:
     display.append("_")
 
-guessed_letter=input("Guess a letter: ").lower()
+guessed_letter = input("Guess a letter: ").lower()
 '''
 for position in range(word_length):
     letter = chosen_word[position]
