@@ -25,4 +25,5 @@ for position in range(word_length):
     letter = chosen_word[position]
     if guessed_letter == letter:
         display[position] = guessed_letter
+    print(display)
 
