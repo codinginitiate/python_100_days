@@ -20,7 +20,7 @@ for letter in chosen_word:
     print(chosen_word.index(letter))
     if guessed_letter == letter:
         display[chosen_word.index(letter)] = guessed_letter
-        print(f"index2 {chosen_word.index(letter)}")
+
 
 
 print(display)
