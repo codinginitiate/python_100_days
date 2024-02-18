@@ -74,6 +74,7 @@ stages = ['''
 import random
 word_list = ["aardvark"]
 display = []
+guesses = 
 lives = 6
 end_of_game = False
 
@@ -99,7 +100,6 @@ while not end_of_game:
             display[position] = guessed_letter
 
     print(display)
-    guesses = []
     guesses += guessed_letter
     print(f"\n The letters you have used: {guesses}")
 
