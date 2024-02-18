@@ -100,7 +100,7 @@ while not end_of_game:
 
     print(display)
     guesses = []
-    guesses += gussed_letter
+    guesses += guessed_letter
     print(guesses)
 
     if guessed_letter not in chosen_word:
