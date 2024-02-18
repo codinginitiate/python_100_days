@@ -74,7 +74,7 @@ stages = ['''
 import random
 word_list = ["aardvark"]
 display = []
-guesses = 
+guesses = []
 lives = 6
 end_of_game = False
 
