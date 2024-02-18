@@ -2,6 +2,7 @@
 import random
 word_list = ["aardvark"]
 display = []
+print("")
 print("""\
         /$$
         | $$
