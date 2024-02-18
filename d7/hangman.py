@@ -101,7 +101,7 @@ while not end_of_game:
     print(display)
     guesses = []
     guesses += guessed_letter
-    print(guesses)
+    print(f"\n The letters you have used: {guesses}")
 
     if guessed_letter not in chosen_word:
         lives -= 1
