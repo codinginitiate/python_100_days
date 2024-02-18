@@ -17,14 +17,15 @@ print("""\
 import random
 word_list = ["aardvark"]
 display = []
+lives = 6
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 for letter in chosen_word:
     display.append("_")
 
-    
-while "_" in display:
+
+while not end_of_game:
     guessed_letter = input("Guess a letter: ").lower()
     '''
     i=0
@@ -39,6 +40,12 @@ while "_" in display:
         if guessed_letter == letter:
             display[position] = guessed_letter
 
-    print(display)
+    if "_" not in display:
+        end_of_game = True
+        print("You win!")
 
-print("You win!")
+    if lives == 0:
+        end_of_game = True
+        print("You lose.")
+
+
