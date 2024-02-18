@@ -42,9 +42,10 @@ while not end_of_game:
             display[position] = guessed_letter
 
     print(display)
-    
+
     if guessed_letter not in chosen_word:
         lives -= 1
+        print(stages[lives])
 
     if "_" not in display:
         end_of_game = True
