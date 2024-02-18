@@ -40,6 +40,9 @@ while not end_of_game:
         if guessed_letter == letter:
             display[position] = guessed_letter
 
+    if gussed_letter not in chosen_word:
+        lives -= 1
+        
     if "_" not in display:
         end_of_game = True
         print("You win!")
