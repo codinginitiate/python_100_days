@@ -88,6 +88,7 @@ while not end_of_game:
     guessed_letter = input("Guess a letter: ").lower()
 
     if guessed_letter in guesses:
+        print("You have used that letter)
 
     '''
     i=0
