@@ -18,6 +18,7 @@ import random
 word_list = ["aardvark"]
 display = []
 lives = 6
+end of game = True
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
@@ -42,7 +43,7 @@ while not end_of_game:
 
     if gussed_letter not in chosen_word:
         lives -= 1
-        
+
     if "_" not in display:
         end_of_game = True
         print("You win!")
