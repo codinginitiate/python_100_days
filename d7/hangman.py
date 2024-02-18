@@ -41,6 +41,8 @@ while not end_of_game:
         if guessed_letter == letter:
             display[position] = guessed_letter
 
+    print(display)
+    
     if guessed_letter not in chosen_word:
         lives -= 1
 
