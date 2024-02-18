@@ -86,6 +86,9 @@ for letter in chosen_word:
 
 while not end_of_game:
     guessed_letter = input("Guess a letter: ").lower()
+
+    if guessed_letter in guesses:
+
     '''
     i=0
     for letter in chosen_word:
@@ -100,7 +103,7 @@ while not end_of_game:
             display[position] = guessed_letter
 
     print(display)
-    guesses += guessed_letter
+
     print(f"\n The letters you have used: {guesses}")
 
     if guessed_letter not in chosen_word:
