@@ -36,5 +36,7 @@ if direction == "encrypt":
     message = encrypt(text, shift)
 elif direction == "decrypt":
     message = decrypt(text, shift)
+else:
+    message = "Sorry, try again."
 
 print(message)
