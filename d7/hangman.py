@@ -30,16 +30,14 @@ while not end_of_game:
     if guessed_letter not in guesses:
         guesses += guessed_letter
 
-
-
-
     '''
     i=0
     for letter in chosen_word:
-    i += 1
-    if guess == letter:
-        display[i-1] = guess
+        if guess == letter:
+            display[i] = guess
+        i += 1
     '''
+
     # above code block can be used for below code block
     for position in range(word_length):
         letter = chosen_word[position]
