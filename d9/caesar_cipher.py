@@ -1,10 +1,10 @@
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-new_text = ""
+new_text = "" # blank str to place decoded/encoded message.
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
-
+# function to encode message
 def encrypt(text, shift):
     new_text = ""
     for letter in text:
@@ -17,7 +17,7 @@ def encrypt(text, shift):
             # If the character is not a letter (e.g., space or punctuation), leave it unchanged.
             new_text += letter
     return new_text
-
+# function to decode message
 def decrypt(text, shift):
     new_text = ""
     for letter in text:
@@ -30,12 +30,12 @@ def decrypt(text, shift):
             # If the character is not a letter (e.g., space or punctuation), leave it unchanged.
             new_text += letter
     return new_text
-
-
+# determine which function to use
 if direction == "encrypt":
     message = encrypt(text, shift)
 elif direction == "decrypt":
     message = decrypt(text, shift)
+# if direction is wrong
 else:
     message = "Sorry, try again."
 
