@@ -24,7 +24,7 @@ while not end_of_game:
 
     if guessed_letter in guesses:
         print("You have used that letter already. Choose again.")
-        return
+        
     if guessed_letter not in guesses:
         guesses += guessed_letter
 
