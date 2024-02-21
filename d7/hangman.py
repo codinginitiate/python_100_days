@@ -107,7 +107,7 @@ while not end_of_game:
 
     print(f"{' '.join(display)}")
 
-    print(f"\n The letters you have used: {' '.join(guesses)},")
+    print(f"\n The letters you have used: {', '.join(guesses)}")
 
     if guessed_letter not in chosen_word:
         lives -= 1
