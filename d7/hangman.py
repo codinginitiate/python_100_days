@@ -1,7 +1,7 @@
 import random
 import hangman_art
 import hangman_words
-word_list = ["aardvark"]
+word_list = [hangman_words.word_list]
 display = []
 guesses = []
 lives = 6
@@ -23,7 +23,7 @@ while not end_of_game:
     if guessed_letter in guesses:
         print("You have used that letter already. Choose again.")
         pass
- 
+
     '''
     i=0
     for letter in chosen_word:
