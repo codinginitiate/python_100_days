@@ -78,8 +78,6 @@ guesses = []
 lives = 6
 end_of_game = False
 
-
-
 chosen_word = random.choice(word_list)
 
 #Testing code
