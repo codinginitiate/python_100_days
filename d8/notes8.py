@@ -9,5 +9,5 @@ greet()
 def greet_with_location(name, location):
     print(f"Hey {name}, How is everything in {location}?")
 
-greet_with_location('James', 'Indianapolis')
+greet_with_location(location = 'Nashville', name = 'Tom' )
 
