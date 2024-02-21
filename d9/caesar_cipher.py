@@ -19,7 +19,7 @@ def encrypt(text, shift):
     return new_text
 
 if direction == "encrypt":
-    encrypt()
+    encrypt(text, shift)
 
 
-print(direction())
+print(direction(text, shift))
