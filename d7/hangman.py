@@ -78,7 +78,13 @@ guesses = []
 lives = 6
 end_of_game = False
 
+
+
 chosen_word = random.choice(word_list)
+
+#Testing code
+print(f'Pssst, the solution is {chosen_word}.')
+
 word_length = len(chosen_word)
 for letter in chosen_word:
     display.append("_")
