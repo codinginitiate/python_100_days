@@ -1,4 +1,2 @@
-position = ""
-letter = 'a'
-position += letter
-print(position)
+print((23+3)%26)
+
