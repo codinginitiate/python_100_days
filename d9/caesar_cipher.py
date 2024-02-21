@@ -9,11 +9,8 @@ text = "Jerry"
 def encrypt(text):
     for letter in text:
         i=0
-        if letter == alphabet[i]:
-            return (f"letter at position {i}, end = ''")
-            i+=1
+        if letter == alphabet[9]:
+            print("yes")
 
-
-print(encrypt(text))
 
 
