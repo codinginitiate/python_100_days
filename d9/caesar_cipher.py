@@ -34,7 +34,7 @@ def decrypt(text, shift):
 
 if direction == "encrypt":
     message = encrypt(text, shift)
-elif direction == "decrypt"
+elif direction == "decrypt":
     message = decrypt(text, shift)
 
 print(message)
