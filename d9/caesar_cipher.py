@@ -8,10 +8,10 @@ shift = int(input("Type the shift number:\n"))
 text = "j"
 def encrypt(text):
     for letter in text:
-        i=0
+        i+=1
         if letter == alphabet[i]:
             return i
-        
+
 
 
 
