@@ -8,7 +8,7 @@ lives = 6
 end_of_game = False
 
 chosen_word = random.choice(word_list)
-print(logo)
+print(hangman_art.logo)
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
 
