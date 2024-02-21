@@ -64,7 +64,8 @@ logo = '''
 | | | | (_| | | | | (_| | | | | | | (_| | | | |
 |_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
                     __/ |
-                   |___/    '''
+                   |___/
+'''
 
 import random
 word_list = ["aardvark"]
@@ -81,7 +82,6 @@ print(f'Pssst, the solution is {chosen_word}.')
 word_length = len(chosen_word)
 for letter in chosen_word:
     display.append("_")
-
 
 while not end_of_game:
     guessed_letter = input("Guess a letter: ").lower()
