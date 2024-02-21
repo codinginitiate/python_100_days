@@ -25,7 +25,7 @@ while not end_of_game:
 
     if guessed_letter in guesses:
         print("You have used that letter already. Choose again.")
-        print(f"\n The letters you have used: {', '.join(guesses)}")
+        print(f"The letters you have used: {', '.join(guesses)}\n")
         continue
     if guessed_letter not in guesses:
         guesses += guessed_letter
