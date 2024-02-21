@@ -5,21 +5,21 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 '''
-text = "hello"
-shift = 3
-def encrypt(text):
+def encrypt(text, shift):
+    new_text = ""
     for letter in text:
-        for i in range(0,26):
-            if letter == alphabet[i]:
-                new_letter = alphabet[i+shift]
-                new_text += new_letter
-
-
-
+        if letter in alphabet:
+            index = alphabet.index(letter)
+            new_index = (index + shift) % 26
+            new_letter = alphabet[new_index]
+            new_text += new_letter
+        else:
+            # If the character is not a letter (e.g., space or punctuation), leave it unchanged.
+            new_text += letter
     return new_text
 
+if direction == "encrypt":
+    encrypt()
 
 
-
-print(encrypt(text))
 
