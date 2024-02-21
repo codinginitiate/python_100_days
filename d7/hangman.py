@@ -51,9 +51,6 @@ while not end_of_game:
         lives -= 1
     print(hangman_art.stages[lives])
 
-    if guessed_letter not in guesses:
-        guesses += guessed_letter
-
     if "_" not in display:
         end_of_game = True
         print("You win!")
