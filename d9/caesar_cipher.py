@@ -12,7 +12,7 @@ def encrypt(text):
         for i in range(0,26):
             if letter == alphabet[i]:
                 new_letter = alphabet[i+shift]
-                new text += new_letter
+                new_text += new_letter
 
 
 
