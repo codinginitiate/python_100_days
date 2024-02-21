@@ -3,6 +3,7 @@ import hangman_art
 import hangman_words
 word_list = hangman_words.word_list
 guesses = []
+display  = []
 lives = 6
 end_of_game = False
 
