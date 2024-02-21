@@ -10,6 +10,9 @@ def encrypt(text):
     for letter in text:
         i=0
         if letter == alphabet[i]:
-            print(f"letter at position {i}, end = ''")
+            return (f"letter at position {i}, end = ''")
+
+
+print(encrypt(text))
 
 
