@@ -1,6 +1,7 @@
 import random
 import hangman_art
 import hangman_words
+
 word_list = hangman_words.word_list
 guesses = []
 display  = []
