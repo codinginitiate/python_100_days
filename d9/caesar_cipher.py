@@ -16,7 +16,7 @@ def encrypt(text):
 
 
 
-    return position_1
+    return new_text
 
 
 
