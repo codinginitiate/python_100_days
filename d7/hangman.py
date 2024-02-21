@@ -105,7 +105,7 @@ while not end_of_game:
         if guessed_letter == letter:
             display[position] = guessed_letter
 
-    print(display)
+    print(f"{' '.join(display)}")
 
     print(f"\n The letters you have used: {guesses}")
 
