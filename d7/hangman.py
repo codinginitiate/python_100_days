@@ -1,8 +1,7 @@
 import random
 import hangman_art
 import hangman_words
-word_list = [hangman_words.word_list]
-display = []
+word_list = hangman_words.word_list
 guesses = []
 lives = 6
 end_of_game = False
