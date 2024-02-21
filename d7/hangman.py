@@ -1,6 +1,6 @@
 import random
-import hangman_art.py
-import hangman_words.py
+import hangman_art
+import hangman_words
 word_list = ["aardvark"]
 display = []
 guesses = []
