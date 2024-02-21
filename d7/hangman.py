@@ -45,7 +45,7 @@ while not end_of_game:
 
     print(f"\n The letters you have used: {', '.join(guesses)}")
 
-    if guessed_letter not in chosen_word:
+    if guessed_letter not in chosen_word and guessed_letter not in guesses:
         lives -= 1
     print(hangman_art.stages[lives])
 
