@@ -18,7 +18,23 @@ def encrypt(text, shift):
             new_text += letter
     return new_text
 
+def decrypt(text, shift):
+    new_text = ""
+    for letter in text:
+        if letter in alphabet:
+            index = alphabet.index(letter)
+            new_index = (index - shift) % 26
+            new_letter = alphabet[new_index]
+            new_text += new_letter
+        else:
+            # If the character is not a letter (e.g., space or punctuation), leave it unchanged.
+            new_text += letter
+    return new_text
+
+
 if direction == "encrypt":
     message = encrypt(text, shift)
+else:
+    message = decrypt(text, shift)
 
 print(message)
