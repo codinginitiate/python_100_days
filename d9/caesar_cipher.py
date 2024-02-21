@@ -11,12 +11,11 @@ def encrypt(text):
         for i in range(0,26):
             if letter == alphabet[i]:
                 position_1.append(i)
-        
+            else:
+                position_1.append(letter)
 
 
-
-
-
+    return position_1
 
 
 
