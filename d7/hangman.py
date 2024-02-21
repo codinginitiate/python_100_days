@@ -27,7 +27,7 @@ while not end_of_game:
         pass
     if guessed_letter not in guesses:
         guesses += guessed_letter
-        pass
+    
 
     '''
     i=0
