@@ -1,6 +1,7 @@
 import random
 import hangman_art
 import hangman_words
+import pyfiglet
 
 word_list = hangman_words.word_list
 guesses = []
@@ -9,7 +10,9 @@ lives = 6
 end_of_game = False
 
 chosen_word = random.choice(word_list)
-print(hangman_art.logo)
+
+result = pyfiglet.figlet_format("hangman", font = "big" )
+print(result)
 
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
