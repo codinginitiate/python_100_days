@@ -5,12 +5,15 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 '''
-text = "Jerry"
+text = "j"
 def encrypt(text):
     for letter in text:
         i=0
-        if letter == alphabet[9]:
-            print("yes")
+        if letter == alphabet[i]:
+            i+=1
+            return i
 
 
+
+print(encrypt(text))
 
