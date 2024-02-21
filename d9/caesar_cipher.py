@@ -22,4 +22,4 @@ if direction == "encrypt":
     encrypt()
 
 
-
+print(direction())
