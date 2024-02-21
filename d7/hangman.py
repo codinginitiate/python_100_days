@@ -22,11 +22,12 @@ while not end_of_game:
     guessed_letter = input("Guess a letter: ").lower()
     print("")
 
-    if guessed_letter in guesses:
-        print("You have used that letter already. Choose again.")
-        
     if guessed_letter not in guesses:
         guesses += guessed_letter
+    if guessed_letter in guesses:
+        print("You have used that letter already. Choose again.")
+        pass
+
 
 
     '''
