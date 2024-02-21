@@ -47,7 +47,7 @@ while not end_of_game:
 
     if guessed_letter not in chosen_word:
         lives -= 1
-    print(stages[lives])
+    print(hangman_art.stages[lives])
 
     if "_" not in display:
         end_of_game = True
