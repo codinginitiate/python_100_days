@@ -34,3 +34,4 @@ while not should_end:
     answer = input("Do you wish to continue? (yes or no) ")
     if answer == 'no':
         should_end = True
+        print("Goodbye")
