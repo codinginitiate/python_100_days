@@ -1,4 +1,6 @@
 
+sys.cls
+
 def auction(name, amount):
     auction_dict[name] = amount
     return auction_dict
