@@ -12,5 +12,6 @@ while not end_of_auction:
     more_bidders = input("Are there more bidders?(yes or no) ")
     if more_bidders == 'no':
         end_of_auction = True
+        
 print(auction(name, amount))
 
