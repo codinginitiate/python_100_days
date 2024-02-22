@@ -2,8 +2,8 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 new_text = "" # blank str to place decoded/encoded message.
 from art import logo
 print(logo)
-should_end = false
-while should_end:
+should_end = False
+while not should_end:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
     # argument for parameter text_plain
     text = input("Type your message:\n").lower()
@@ -27,3 +27,7 @@ while should_end:
 
     # print returned encoded/decoded message
     print(ceasar_cipher(coding_direction = direction, plain_text = text, shift_amount = shift ))
+
+    answer = input("Do you wish to continue? (yes or no) ")
+    if answer == 'no':
+        should_end = True
