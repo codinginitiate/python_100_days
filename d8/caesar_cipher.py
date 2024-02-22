@@ -1,13 +1,12 @@
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 new_text = "" # blank str to place decoded/encoded message.
-import art
-
+from art import logo
+print(logo)
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 # argument for parameter text_plain
 text = input("Type your message:\n").lower()
 # argument for parameter shift_amount
 shift = int(input("Type the shift number:\n"))
-print(art)
 
 
 def ceasar_cipher(coding_direction, plain_text, shift_amount):
