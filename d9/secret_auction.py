@@ -1,10 +1,10 @@
 
 def auction(name, amount):
-    auction_dict[name] = amount
-    return auction_dict
+    secret_auction_dict[name] = amount
+    return secret_auction_dict
 
 
-auction_dict={}
+secret_auction_dict={}
 end_of_auction = False
 while not end_of_auction:
     name = input("Name: ")
@@ -13,9 +13,10 @@ while not end_of_auction:
     more_bidders = input("Are there more bidders?(yes or no) ")
     if more_bidders == 'no':
         end_of_auction = True
-max_value = max(auction.values())
-max_key = max(auction, key=auction.get)
+secret_auction = auction(name, amount)
+max_value = max(secret_auction.values())
+max_key = max(secret_auction, key=auction.get)
 
 
-print(auction(name, amount))
+print(f"The winner is {max_key} with a bid of ${max_value}")
 
