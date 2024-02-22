@@ -7,7 +7,7 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 # argument for parameter shift_amount
 shift = int(input("Type the shift number:\n"))
-print(art.logo)
+print(art)
 
 
 def ceasar_cipher(coding_direction, plain_text, shift_amount):
