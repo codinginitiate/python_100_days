@@ -28,3 +28,7 @@ max_key = max(auction(name,amount), key=auction(name,amount).get)# retrieved fro
 os.system('clear')
 print(logo)
 print(f"The winner is {max_key}, with a bid of ${max_value}\n")
+
+'''
+see secret_auction2 for original solution.
+'''
