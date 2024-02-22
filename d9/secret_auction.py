@@ -23,5 +23,6 @@ while not end_of_auction:
 max_value = max(auction(name, amount).values())
 max_key = max(auction(name,amount), key=auction(name,amount).get)
 
-
+os.system('clear')
+print(logo)
 print(f"The winner is {max_key}, with a bid of ${max_value}")
