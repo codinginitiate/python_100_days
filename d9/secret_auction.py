@@ -13,9 +13,9 @@ while not end_of_auction:
     more_bidders = input("Are there more bidders?(yes or no) ")
     if more_bidders == 'no':
         end_of_auction = True
-#max_value = max(auction.values())
-#max_key = max(auction, key=auction.get)
+    max_value = max(auction(name, amount).values())
+    max_key = max(auction(name,amount), key=auction(name,amount).get)
 
 
 print(auction(name, amount))
-
+print(max_key, max_value)
