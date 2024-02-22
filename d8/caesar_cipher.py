@@ -1,3 +1,4 @@
+"""
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 new_text = "" # blank str to place decoded/encoded message.
 
@@ -5,7 +6,7 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 # argument for parameter text_plain
 text = input("Type your message:\n").lower()
 # argument for parameter shift_amount
-shift = int(input("Type the shift number:\n"))
+shift = int(input("Type the shift number:\n")
 
 def ceasar_cipher(coding_direction, plain_text, shift_amount):
     new_text = ""
@@ -24,3 +25,22 @@ def ceasar_cipher(coding_direction, plain_text, shift_amount):
 
 # print returned encoded/decoded message
 print(f"The {direction}d message is {ceasar_cipher(coding_direction = direction, plain_text = text, shift_amount = shift)}")
+"""
+def caesar_cipher(coding_direction, plain_text, shift_amount):
+    new_text = ""
+    for letter in plain_text:
+        if letter.isalpha():  # Check if the character is a letter
+            index = alphabet.index(letter.lower())  # Convert to lowercase for consistency
+            if coding_direction == "decode":
+                shift_amount *= -1
+            new_index = (index + shift_amount) % 26
+            new_letter = alphabet[new_index]
+            # Preserve the original case (uppercase or lowercase)
+            if letter.isupper():
+                new_text += new_letter.upper()
+            else:
+                new_text += new_letter
+        else:
+            # If the character is not a letter (e.g., space or punctuation), leave it unchanged.
+            new_text += letter
+    return new_text
