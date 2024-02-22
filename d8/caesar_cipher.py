@@ -43,4 +43,18 @@ else:
 # print returned encoded/decoded message
 print(message)
 
-def ceasar_cipher(coding_direction, plain_text, shift)
+def ceasar_cipher(coding_direction, plain_text, shift):
+    new_text = ""
+    for letter in plain_text:
+        if letter in alphabet:
+            index = alphabet.index(letter)
+            if direction == "encode":
+                new_index = (index + shift_amount) % 26
+            else:
+                new_index = (index - shift_amount) % 26
+            new_letter = alphabet[new_index]
+            new_text += new_letter
+        else:
+            # If the character is not a letter (e.g., space or punctuation), leave it unchanged.
+            new_text += letter
+    return new_text
