@@ -44,3 +44,6 @@ def caesar_cipher(coding_direction, plain_text, shift_amount):
             # If the character is not a letter (e.g., space or punctuation), leave it unchanged.
             new_text += letter
     return new_text
+
+print("Encoded:", encoded_text)  # Should print "mjqqt"
+print("Decoded:", decoded_text)  # Should print "hello"
