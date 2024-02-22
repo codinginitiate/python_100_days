@@ -8,7 +8,6 @@ text = input("Type your message:\n").lower()
 # argument for parameter shift_amount
 shift = int(input("Type the shift number:\n"))
 
-
 def ceasar_cipher(coding_direction, plain_text, shift_amount):
     new_text = ""
     if coding_direction == "decode":
