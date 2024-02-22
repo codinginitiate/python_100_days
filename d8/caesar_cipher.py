@@ -7,10 +7,10 @@ shift = int(input("Type the shift number:\n"))
 # function to encode message
 def encrypt(plain_text, shift_amount):
     new_text = ""
-    for letter in text:
+    for letter in plain_text:
         if letter in alphabet:
             index = alphabet.index(letter)
-            new_index = (index + shift) % 26
+            new_index = (index + shift_amount) % 26
             new_letter = alphabet[new_index]
             new_text += new_letter
         else:
@@ -20,10 +20,10 @@ def encrypt(plain_text, shift_amount):
 # function to decode message
 def decrypt(plain_text, shift_amount):
     new_text = ""
-    for letter in text:
+    for letter in plain_text:
         if letter in alphabet:
             index = alphabet.index(letter)
-            new_index = (index - shift) % 26
+            new_index = (index - shift_amount) % 26
             new_letter = alphabet[new_index]
             new_text += new_letter
         else:
@@ -32,9 +32,9 @@ def decrypt(plain_text, shift_amount):
     return new_text
 # determine which function to use
 if direction == "encrypt":
-    message = encrypt(text, shift)
+    message = encrypt(plain_text = text, shift_amount = shift)
 elif direction == "decrypt":
-    message = decrypt(text, shift)
+    message = decrypt(plain_text = text, shift_amount =shift)
 # if direction is wrong
 else:
     message = "Sorry, try again."
