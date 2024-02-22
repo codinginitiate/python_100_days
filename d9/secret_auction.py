@@ -1,4 +1,5 @@
-system('cls')
+import os
+os.system('clear')
 
 def auction(name, amount):
     auction_dict[name] = amount
