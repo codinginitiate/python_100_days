@@ -17,7 +17,8 @@ while not end_of_auction:
     more_bidders = input("Are there more bidders?(yes or no) ")
     if more_bidders.lower() == 'no':
         end_of_auction = True
-    os.system('clear')
+    else:
+        os.system('clear')
     print(logo)
 max_value = max(auction(name, amount).values())
 max_key = max(auction(name,amount), key=auction(name,amount).get)
