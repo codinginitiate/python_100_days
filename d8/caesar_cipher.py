@@ -5,7 +5,7 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 # function to encode message
-def encrypt(text, shift):
+def encrypt(plain_text, shift_amount):
     new_text = ""
     for letter in text:
         if letter in alphabet:
@@ -18,7 +18,7 @@ def encrypt(text, shift):
             new_text += letter
     return new_text
 # function to decode message
-def decrypt(text, shift):
+def decrypt(plain_text, shift_amount):
     new_text = ""
     for letter in text:
         if letter in alphabet:
