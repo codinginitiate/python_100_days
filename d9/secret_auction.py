@@ -14,5 +14,7 @@ while not end_of_auction:
     if more_bidders == 'no':
         end_of_auction = True
 
+
+
 print(auction(name, amount))
 
