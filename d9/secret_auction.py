@@ -1,7 +1,7 @@
 
 def auction(name, amount):
     auction_dict[name] = amount
-    return auction_dict
+    return max_key, max_value
 
 
 auction_dict={}
