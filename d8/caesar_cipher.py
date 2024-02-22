@@ -23,4 +23,4 @@ def ceasar_cipher(coding_direction, plain_text, shift_amount):
     return new_text
 
 # print returned encoded/decoded message
-print(ceasar_cipher(coding_direction = direction, plain_text = text, shift_amount = shift))
+print(f"The {direction}d message is {ceasar_cipher(coding_direction = direction, plain_text = text, shift_amount = shift)}")
