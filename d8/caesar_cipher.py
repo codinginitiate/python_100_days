@@ -10,7 +10,7 @@ shift = int(input("Type the shift number:\n"))
 def ceasar_cipher(coding_direction, plain_text, shift_amount):
     new_text = ""
     if coding_direction == "decode":
-        shift_amount *+ -1
+        shift_amount *= -1
     for letter in plain_text:
         if letter in alphabet:
             index = alphabet.index(letter)
