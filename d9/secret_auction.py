@@ -17,5 +17,4 @@ max_value = max(auction(name, amount).values())
 max_key = max(auction(name,amount), key=auction(name,amount).get)
 
 
-print(auction(name, amount))
-print(f"max_key, max_value)
+print(f"The winner id {max_key}, with a bid of ${max_value}")
