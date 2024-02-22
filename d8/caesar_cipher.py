@@ -42,3 +42,5 @@ else:
     message = "Sorry, try again."
 # print returned encoded/decoded message
 print(message)
+
+def ceasar_cipher(coding_direction, plain_text, shift)
