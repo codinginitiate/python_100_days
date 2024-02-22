@@ -2,8 +2,9 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 new_text = "" # blank str to place decoded/encoded message.
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-# argument for paramiter
+# argument for parameter text_plain
 text = input("Type your message:\n").lower()
+# argument for parameter shift_amount
 shift = int(input("Type the shift number:\n"))
 # function to encode message
 def encrypt(plain_text, shift_amount):
@@ -39,5 +40,5 @@ elif direction == "decode":
 # if direction is wrong
 else:
     message = "Sorry, try again."
-
+# print returned encoded/decoded message
 print(message)
