@@ -12,9 +12,15 @@ def ceasar_cipher(coding_direction, plain_text, shift_amount):
     for letter in plain_text:
         if letter in alphabet:
             index = alphabet.index(letter)
-            if coding_direction == "decode":
-                shift_amount = shift_amount * -1
-            new_index = (index + shift_amount) % 26
+'''
+            if coding_direction == "encode":
+                new_index = (index + shift_amount) % 26
+            else:
+                new_index = (index - shift_amount) % 26
+'''
+            if coding_direction = "decode":
+                shift_amount *= -1
+            new in
             new_letter = alphabet[new_index]
             new_text += new_letter
         else:
@@ -23,5 +29,4 @@ def ceasar_cipher(coding_direction, plain_text, shift_amount):
     return new_text
 
 # print returned encoded/decoded message
-print(ceasar_cipher(coding_direction = direction, plain_text = text, shift_amount=shift ))
-
+print(ceasar_cipher(coding_direction = direction, plain_text = text, shift_amount = shift ))
