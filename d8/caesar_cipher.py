@@ -14,7 +14,7 @@ def ceasar_cipher(coding_direction, plain_text, shift_amount):
             index = alphabet.index(letter)
             if coding_direction == "decode":
                 shift_amount *= -1
-            new_index = (index + shift_amount) % 26
+            new_index = index + shift_amount
 #            if coding_direction == "encode":
 #                new_index = (index + shift_amount) % 26
 #            else:
