@@ -14,6 +14,7 @@ while not end_of_auction:
     if more_bidders == 'no':
         end_of_auction = True
 max_value = max(auction.values())
+max_key = max(auction, key=auction.get)
 
 
 print(auction(name, amount))
