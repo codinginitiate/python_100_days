@@ -1,17 +1,16 @@
 
 def auction(bidders_name, bidders_bid):
     auction_dict = {}
-
-    end_of_auction = False
-    while not end_of_auction:
-        name = input("Name: ")
-        amount = input("bid amount: ")
-        auction_dict[name]
+    name = input("Name: ")
+    amount = input("bid amount: ")
+    auction_dict[name] = amount
+    return auction_dict
 
 
 
 
 
-auction(bidders_name, bidders_bid)
+
+print(auction(bidders_name, bidders_bid))
 
 
