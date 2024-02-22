@@ -2,6 +2,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 new_text = "" # blank str to place decoded/encoded message.
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+# argument for paramiter
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 # function to encode message
