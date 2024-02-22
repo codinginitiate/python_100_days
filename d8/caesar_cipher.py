@@ -20,7 +20,7 @@ def ceasar_cipher(coding_direction, plain_text, shift_amount):
 '''
             if coding_direction = "decode":
                 shift_amount *= -1
-            new in
+            new index = index + shift_amount
             new_letter = alphabet[new_index]
             new_text += new_letter
         else:
