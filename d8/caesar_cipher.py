@@ -2,6 +2,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 new_text = "" # blank str to place decoded/encoded message.
 from art import logo
 print(logo)
+should
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 # argument for parameter text_plain
 text = input("Type your message:\n").lower()
