@@ -28,4 +28,4 @@ operations={
     "/":divide
 }
 
-function
+function = operation[]
