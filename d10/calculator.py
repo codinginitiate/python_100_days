@@ -27,8 +27,11 @@ operations={
     "/":divide
 }
 
+while True:
+    try:
+        num1 = int(input("What is the first number?: "))
+    expect:
 
-num1 = int(input("What is the first number?: "))
 
 for key in operations:
     print(key+" ", end ="")
