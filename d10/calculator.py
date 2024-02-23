@@ -29,7 +29,7 @@ operations={
 
 num1 = int(input("What is the first number?: "))
 for key in operations:
-    print(key+", ", end ="")
+    print(key+" ", end ="")
 operation_symbol = input("Pick an operation symbol form the list above.: ")
 num2 = int(input("What is the second number?: "))
 
