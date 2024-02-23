@@ -1,4 +1,5 @@
-
+import os
+os.system("clear")
 
 def main(num1, num2, operator_symbol):
     return operations[operator_symbol](num1, num2)
@@ -23,11 +24,9 @@ operations={
     "*":multiply,
     "/":divide
 }
-try:
-    num1 = int(input("What is the first number?: "))
-    num2 = int(input("What is the second number?: "))
-except:
-    raise ValueError("Must be a number")
+
+num1 = int(input("What is the first number?: "))
+num2 = int(input("What is the second number?: "))
 
 for key in operations:
     print(key)
