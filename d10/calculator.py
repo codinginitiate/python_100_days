@@ -30,7 +30,9 @@ operations={
 while True:
     try:
         num1 = int(input("What is the first number?: "))
-    expect print("please enter a number"):continue
+        break
+    except("Please enter number"):
+        continue
 
 
 for key in operations:
