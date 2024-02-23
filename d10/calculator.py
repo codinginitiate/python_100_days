@@ -30,7 +30,7 @@ operations={
 while True:
     try:
         num1 = int(input("What is the first number?: "))
-    expect:continue
+    expect "continue
 
 
 for key in operations:
