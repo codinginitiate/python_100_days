@@ -21,4 +21,4 @@ def multiply(n1, n2):
 def divide(n1, n2):
     return n1 / n2
 
-math_dict = {}
+math_dict = {+:add, -:subtract, *:multiply, /:divide}
