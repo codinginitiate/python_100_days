@@ -27,6 +27,7 @@ operations={
     "/":divide
 }
 
+
 num1 = int(input("What is the first number?: "))
 
 for key in operations:
