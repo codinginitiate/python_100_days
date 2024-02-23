@@ -28,4 +28,6 @@ operations={
     "/":divide
 }
 
-function = operation[]
+num1 =int(input("What is your number?: "))
+
+function = operation["+"]
