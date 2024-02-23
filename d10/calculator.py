@@ -28,12 +28,10 @@ operations={
 }
 
 num1 = int(input("What is the first number?: "))
-num2 = int(input("What is the second number?: "))
-
 for key in operations:
     print(key)
-
 operation_symbol = input("Pick an operation symbol form the list above.: ")
+num2 = int(input("What is the second number?: "))
 
 
 answer = main(num1, num2, operation_symbol)
