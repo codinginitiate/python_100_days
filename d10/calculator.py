@@ -38,4 +38,4 @@ print(f"{num1} {operation_symbol} {num2} = {answer}")
 
 
 if __name__=="__main__":
-    main()
+    main(num1, num2, operation_symbol)
