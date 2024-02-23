@@ -31,7 +31,7 @@ while True:
     try:
         num1 = int(input("What is the first number?: "))
         break
-    except ValueError("Please enter number."):
+    except ValueError:
         continue
 
 
