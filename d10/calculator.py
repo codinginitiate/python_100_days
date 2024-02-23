@@ -35,7 +35,7 @@ operation_symbol = input("Pick an operation symbol form the list above.: ")
 
 
 answer = main(num1, num2, operation_symbol)
-print(f"{num1} {operation_symbol} {num2} = {answer}")
+print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
 
 if __name__=="__main__":
