@@ -1,8 +1,7 @@
 
 
 def main(num1, num2, operator_symbol):
-    
-
+    return operations[operator_symbol](num1, num2)
 
 # Calculator
 #add
@@ -34,6 +33,6 @@ for key in operations:
 operation_symbol = input("Pick an operation symbol form the list above.: ")
 
 
-
-print(f"{num1} {operation_symbol} {num2} = {answer})
+answer = main()
+print(f"{num1} {operation_symbol} {num2} = {answer}")
 
