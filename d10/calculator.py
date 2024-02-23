@@ -1,5 +1,7 @@
 import os
 os.system("clear")
+import art
+print(logo)
 
 def main(num1, num2, operator_symbol):
     return operations[operator_symbol](num1, num2)
