@@ -1,6 +1,6 @@
 import os
 os.system("clear")
-import art
+from art import logo
 print(logo)
 
 def main(num1, num2, operator_symbol):
