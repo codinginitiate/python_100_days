@@ -33,6 +33,6 @@ for key in operations:
 operation_symbol = input("Pick an operation symbol form the list above.: ")
 
 
-answer = main()
+answer = main(num1, num2, operation_symbol)
 print(f"{num1} {operation_symbol} {num2} = {answer}")
 
