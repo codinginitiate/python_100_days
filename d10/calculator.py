@@ -23,9 +23,11 @@ operations={
     "*":multiply,
     "/":divide
 }
-
-num1 = int(input("What is the first number?: "))
-num2 = int(input("What is the second number?: "))
+try:
+    num1 = int(input("What is the first number?: "))
+    num2 = int(input("What is the second number?: "))
+except:
+    raise ValueError("Must be a number")
 
 for key in operations:
     print(key)
