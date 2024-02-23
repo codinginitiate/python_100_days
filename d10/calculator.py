@@ -27,3 +27,5 @@ operations={
     "*":multiply,
     "/":divide
 }
+
+function
