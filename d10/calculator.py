@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 # Calculator
 #add
 def add(n1, n2):
@@ -33,3 +26,10 @@ num2 = int(input("What is the second number?: "))
 
 for key in operations:
     print(key)
+
+operation_symbol = input("Pick an operation symbol form the list above.: ")
+
+
+
+print(f"{num1} {operation_symbol} {num2} = {answer})
+
