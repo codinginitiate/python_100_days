@@ -28,6 +28,6 @@ operations={
     "/":divide
 }
 
-num1 =int(input("What is your number?: "))
+num1 = int(input("What is the first number?: "))
+num2 = int(input("What is the second number?: "))
 
-function = operation["+"]
