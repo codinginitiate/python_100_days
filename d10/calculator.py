@@ -23,13 +23,14 @@ operations={
     "*":multiply,
     "/":divide
 }
-name = input("What is your name? ")
+
+num1 = int(input("What is the first number?: "))
+num2 = int(input("What is the second number?: "))
 
 for key in operations:
     print(key)
 
 operation_symbol = input("Pick an operation symbol form the list above.: ")
-
 
 
 answer = main(num1, num2, operation_symbol)
