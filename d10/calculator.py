@@ -64,4 +64,5 @@ def calculator():
             calculator()
         else:
             should_continue = False
+            
 calculator()
