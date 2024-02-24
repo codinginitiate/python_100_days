@@ -3,9 +3,6 @@ os.system("clear")
 from art import logo
 print(logo)
 
-def main(num1, num2, operator_symbol):
-    return operations[operator_symbol](num1, num2)
-
 # Calculator
 #add
 def add(n1, n2):
@@ -65,18 +62,3 @@ def calculator():
     else:
         should_continue = False
         calculator()
-
-
-
-
-
-
-if __name__=="__main__":
-    main()
-
-
-
-
-
-
-
