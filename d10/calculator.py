@@ -64,7 +64,7 @@ def calculator():
             os.system("clear")
             print(logo)
             calculator()
-        else:
-            should_continue = False
+    should_continue = False
+    
 
 calculator()
