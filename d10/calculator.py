@@ -48,7 +48,32 @@ answer = main(num1, num2, operation_symbol)
 print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
 if input(f"Type 'y' to continue calculating with {answer}: ") == 'y':
+    operation_symbol = input("\nPick an operation symbol form the list above.: ")
+
+while True:
+    try:
+        num2 = int(input("What is the next number?: "))
+        break
+    except ValueError:
+        continue
+
+answer = main(num1, num2, operation_symbol)
+print(f"{num1} {operation_symbol} {num2} = {answer}\n")
+
+
+
+
+
+
+
 
 
 if __name__=="__main__":
     main(num1, num2, operation_symbol)
+
+
+
+
+
+
+
