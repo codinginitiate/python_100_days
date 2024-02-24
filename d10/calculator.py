@@ -45,35 +45,9 @@ while True:
     except ValueError:
         continue
 
-should_ continue == Treue
+should_continue == True
 
-While should_continue:
-while True:
-    try:
-        num2 = int(input("What is the next number?: "))
-        break
-    except ValueError:
-        continue
-
-answer = main(num1, num2, operation_symbol)
-print(f"{num1} {operation_symbol} {num2} = {answer}\n")
-
-while True:
-    if input(f"Type 'y' to continue calculating with {answer} or type 'n' to exit: ") == 'y':
-        pass
-    else:
-        break
-
-    num1 = answer
-
-    while True:
-        try:
-            operation_symbol = input("Pick an operation symbol form the list above.: ")
-            if operation_symbol in operations:
-                break
-        except ValueError:
-            continue
-
+while should_continue:
     while True:
         try:
             num2 = int(input("What is the next number?: "))
@@ -83,6 +57,15 @@ while True:
 
     answer = main(num1, num2, operation_symbol)
     print(f"{num1} {operation_symbol} {num2} = {answer}\n")
+
+    while True:
+        if input(f"Type 'y' to continue calculating with {answer} or type 'n' to exit: ") == 'y':
+            should_continue == True
+        else:
+            should_continue == False
+
+
+
 
 
 if __name__=="__main__":
