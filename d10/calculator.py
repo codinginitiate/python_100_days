@@ -40,7 +40,6 @@ def calculator():
     while should_continue:
 
         while True:
-            print(logo)
             try:
                 operation_symbol = input("Pick an operation symbol form the list above.: ")
                 if operation_symbol in operations:
@@ -62,6 +61,8 @@ def calculator():
         if entry == 'y':
             num1 = answer
         elif entry == 'n':
+            os.system("clear")
+            print(logo)
             calculator()
         else:
             should_continue = False
