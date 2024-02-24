@@ -76,7 +76,6 @@ while True:
     print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
 
-
 if __name__=="__main__":
     main(num1, num2, operation_symbol)
 
