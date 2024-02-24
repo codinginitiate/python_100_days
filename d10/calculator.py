@@ -42,7 +42,7 @@ While True:
         operation_symbol = input("\nPick an operation symbol form the list above.: ")
         if operation_symbol in operations[key]:
             break
-except ValueError
+    except ValueError:
 
 while True:
     try:
