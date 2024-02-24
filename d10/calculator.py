@@ -47,7 +47,7 @@ while True:
 answer = main(num1, num2, operation_symbol)
 print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
-input(f"Type 'y' to continue calculating with {answer}: ")
+if input(f"Type 'y' to continue calculating with {answer}: ") == 'y':
 
 
 if __name__=="__main__":
