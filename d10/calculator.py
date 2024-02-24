@@ -65,6 +65,6 @@ def calculator():
             print(logo)
             calculator()
         else:
-            break
+            should_continue = False
 
 calculator()
