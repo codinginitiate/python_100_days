@@ -47,7 +47,6 @@ def calculator():
             except ValueError:
                 continue
 
-
         while True:
             try:
                 num2 = int(input("What is the next number?: "))
