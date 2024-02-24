@@ -62,8 +62,14 @@ while True:
         break
 
     num1 = answer
-    operation_symbol = input("\nPick an operation symbol form the list above.: ")
-    print(num1)
+    
+    while True:
+    try:
+        operation_symbol = input("Pick an operation symbol form the list above.: ")
+        if operation_symbol in operations:
+            break
+    except ValueError:
+        continue
 
     while True:
         try:
