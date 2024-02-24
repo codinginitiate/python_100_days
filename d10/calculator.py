@@ -72,7 +72,6 @@ while True:
         except ValueError:
             continue
 
-    print(num1, num2, operation_symbol)
     answer = main(num1, num2, operation_symbol)
     print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
