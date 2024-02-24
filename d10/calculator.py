@@ -45,6 +45,9 @@ while True:
     except ValueError:
         continue
 
+should_ continue == Treue
+
+While should_continue:
 while True:
     try:
         num2 = int(input("What is the next number?: "))
