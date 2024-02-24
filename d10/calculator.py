@@ -37,7 +37,7 @@ while True:
 for key in operations:
     print(key+" ", end ="")
 
-While True:
+while True:
     try:
         operation_symbol = input("\nPick an operation symbol form the list above.: ")
         if operation_symbol in operations[key]:
