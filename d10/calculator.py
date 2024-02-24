@@ -1,7 +1,6 @@
 import os
 os.system("clear")
 from art import logo
-print(logo)
 
 # Calculator
 #add
@@ -27,7 +26,7 @@ operations={
 def calculator():
     while True:
         try:
-            num1 = int(input("What is the first number?: "))
+            num1 = float(input("What is the first number?: "))
             break
         except ValueError:
             continue
@@ -50,7 +49,7 @@ def calculator():
 
         while True:
             try:
-                num2 = int(input("What is the next number?: "))
+                num2 = float(input("What is the next number?: "))
                 break
             except ValueError:
                 continue
