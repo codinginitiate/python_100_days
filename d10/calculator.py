@@ -46,7 +46,7 @@ while True:
 
 answer = main(num1, num2, operation_symbol)
 print(f"{num1} {operation_symbol} {num2} = {answer}\n")
-
+while True:
 if input(f"Type 'y' to continue calculating with {answer}: ") == 'y':
     num1 = answer
     operation_symbol = input("\nPick an operation symbol form the list above.: ")
