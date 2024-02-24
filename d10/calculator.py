@@ -57,15 +57,15 @@ def calculator():
         answer = operations[operation_symbol](num1, num2)
         print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
-    entry =input(f"Type 'y' to continue calculating with {answer}, type 'n' to start a new calculation, or 'e' to exit: ")
-    if entry == 'y':
+        entry =input(f"Type 'y' to continue calculating with {answer}, type 'n' to start a new calculation, or 'e' to exit: ")
+        if entry == 'y':
             num1 = answer
-    elif entry == 'n':
+        elif entry == 'n':
             os.system("clear")
             print(logo)
             calculator()
-    else:
-        os.system("clear")
+        else:
+            os.system("clear")
         should_continue = False
 
 calculator()
