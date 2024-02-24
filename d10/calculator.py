@@ -40,7 +40,7 @@ for key in operations:
 while True:
     try:
         operation_symbol = input("\nPick an operation symbol form the list above.: ")
-        if operation_symbol in operations[key]:
+        if operation_symbol in operations:
             break
     except ValueError:
         continue
