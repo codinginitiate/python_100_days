@@ -39,10 +39,10 @@ for key in operations:
 operation_symbol = input("\nPick an operation symbol form the list above.: ")
 while True:
     try:
-        num2 = int(input("What is the second number?: "))
+        num2 = int(input("What is the next number?: "))
     except ValueError:
         continue
-    
+
 answer = main(num1, num2, operation_symbol)
 print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
