@@ -39,8 +39,9 @@ While True:
             print(key+" ", end ="")
 
         operation_symbol = input("\nPick an operation symbol form the list above.: ")
-        if operation_symbol not in operation[key]:
-            
+        if operation_symbol in operations[key]:
+            break
+
     except ValueError
 
 while True:
