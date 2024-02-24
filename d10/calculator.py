@@ -1,6 +1,7 @@
 import os
 os.system("clear")
 from art import logo
+print(logo)
 
 # Calculator
 #add
