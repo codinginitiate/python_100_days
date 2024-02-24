@@ -69,8 +69,8 @@ def calculator():
 
 
 
-    if __name__=="__main__":
-        main(num1, num2, operation_symbol)
+if __name__=="__main__":
+    main()
 
 
 
