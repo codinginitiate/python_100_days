@@ -34,10 +34,14 @@ while True:
     except ValueError:
         continue
 While True:
-for key in operations:
-    print(key+" ", end ="")
+    try:
+        for key in operations:
+            print(key+" ", end ="")
 
-operation_symbol = input("\nPick an operation symbol form the list above.: ")
+        operation_symbol = input("\nPick an operation symbol form the list above.: ")
+        if operation_symbol not in operation[key]:
+            
+    except ValueError
 
 while True:
     try:
