@@ -55,7 +55,7 @@ while True:
 answer = main(num1, num2, operation_symbol)
 print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 while True:
-    if input(f"Type 'y' to continue calculating with {answer}: ") == 'y':
+    if input(f"Type 'y' to continue calculating with {answer} or type 'n' to exit: ") == 'y':
         pass
     else:
         break
@@ -69,7 +69,7 @@ while True:
             break
         except ValueError:
             continue
-        
+
     print(num1, num2, operation_symbol)
     answer = main(num1, num2, operation_symbol)
     print(f"{num1} {operation_symbol} {num2} = {answer}\n")
