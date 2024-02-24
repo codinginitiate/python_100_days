@@ -43,6 +43,7 @@ while True:
         if operation_symbol in operations[key]:
             break
     except ValueError:
+        continue
 
 while True:
     try:
