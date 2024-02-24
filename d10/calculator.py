@@ -27,6 +27,7 @@ operations={
     "/":divide
 }
 
+def calculator():
 while True:
     try:
         num1 = int(input("What is the first number?: "))
