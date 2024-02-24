@@ -60,7 +60,7 @@ def calculator():
         if input(f"Type 'y' to continue calculating with {answer} or type 'n' to start a new calculation: ") == 'y':
             should_continue = True
             num1 = answer
-        else:
+        elif
             should_continue = False
             calculator()
 
