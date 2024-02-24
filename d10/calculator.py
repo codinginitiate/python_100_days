@@ -40,6 +40,7 @@ operation_symbol = input("\nPick an operation symbol form the list above.: ")
 while True:
     try:
         num2 = int(input("What is the next number?: "))
+        break
     except ValueError:
         continue
 
