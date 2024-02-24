@@ -3,6 +3,8 @@ os.system("clear")
 from art import logo
 print(logo)
 
+calculator()
+
 # Calculator
 #add
 def add(n1, n2):
@@ -57,11 +59,10 @@ def calculator():
         answer = operations[operation_symbol](num1, num2)
         print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
-        entry =input(f"Type 'y' to continue calculating with {answer}, type 'n' to start a new calculation, or 'e' to exit: ") :
+        entry =input(f"Type 'y' to continue calculating with {answer}, type 'n' to start a new calculation, or 'e' to exit: ")
         if entry == 'y':
             num1 = answer
         elif entry == 'n':
             calculator()
         else:
             should_continue = False
-
