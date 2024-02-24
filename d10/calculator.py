@@ -59,7 +59,7 @@ def calculator():
         answer = main(num1, num2, operation_symbol)
         print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
-    if input(f"Type 'y' to continue calculating with {answer} or type 'n' to exit: ") == 'y':
+    if input(f"Type 'y' to continue calculating with {answer} or type 'n' to start a new calculation: ") == 'y':
         should_continue = True
         num1 = answer
     else:
