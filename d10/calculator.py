@@ -35,17 +35,19 @@ def calculator():
     for key in operations:
         print(key+" ", end ="")
 
-    while True:
-        try:
-            operation_symbol = input("Pick an operation symbol form the list above.: ")
-            if operation_symbol in operations:
-                break
-        except ValueError:
-            continue
-
     should_continue = True
 
     while should_continue:
+
+        while True:
+            try:
+                operation_symbol = input("Pick an operation symbol form the list above.: ")
+                if operation_symbol in operations:
+                    break
+            except ValueError:
+                continue
+
+
         while True:
             try:
                 num2 = int(input("What is the next number?: "))
