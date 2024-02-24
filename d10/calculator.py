@@ -3,8 +3,6 @@ os.system("clear")
 from art import logo
 print(logo)
 
-calculator()
-
 # Calculator
 #add
 def add(n1, n2):
@@ -66,3 +64,4 @@ def calculator():
             calculator()
         else:
             should_continue = False
+calculator()
