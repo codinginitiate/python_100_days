@@ -33,8 +33,8 @@ while True:
         break
     except ValueError:
         continue
-While True:
-    try:
+
+
         for key in operations:
             print(key+" ", end ="")
 
