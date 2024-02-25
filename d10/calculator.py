@@ -63,6 +63,7 @@ def calculator():
         elif entry == 'n':
             calculator()
         else:
-            should_continue = False
+            break
+    should_continue = False
 
 calculator()
