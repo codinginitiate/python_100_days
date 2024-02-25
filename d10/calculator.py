@@ -65,7 +65,7 @@ def calculator():
             print(logo)
             calculator()
         else:
-            break
+            
     os.system('clear')
 
 
