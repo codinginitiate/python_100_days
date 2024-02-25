@@ -61,8 +61,13 @@ def calculator():
         if entry == 'y':
             num1 = answer
         elif entry == 'n':
+            os.system("clear")
+            print(logo)
             calculator()
-        else:
+        elif entry == 'e':
             should_continue = False
+        else:
+            print("Invalid input. Please choose 'y', 'n', or 'e'.")
+    os.system('clear')
 
 calculator()
