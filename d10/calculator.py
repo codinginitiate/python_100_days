@@ -57,17 +57,19 @@ def calculator():
         answer = operations[operation_symbol](num1, num2)
         print(f"{num1} {operation_symbol} {num2} = {answer}\n")
 
-        entry = input(f"Type 'y' to continue calculating with {answer}, type 'n' to start a new calculation, or 'e' to exit: ")
-        if entry == 'y':
-            num1 = answer
-        elif entry == 'n':
-            os.system("clear")
-            print(logo)
-            calculator()
-        elif entry == 'e':
-            should_continue = False
-        else:
-            print("Invalid input. Please choose 'y', 'n', or 'e'.")
+        try:
+            entry = input(f"Type 'y' to continue calculating with {answer}, type 'n' to start a new calculation, or 'e' to exit: ")
+            if entry == 'y':
+                num1 = answer
+            elif entry == 'n':
+                os.system("clear")
+                print(logo)
+                calculator()
+            elif entry == 'e':
+                should_continue = False
+            else:
+                print("Invalid input. Please choose 'y', 'n', or 'e'.")
+        except: ValueError
     os.system('clear')
 
 calculator()
