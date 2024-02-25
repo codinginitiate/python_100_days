@@ -60,7 +60,7 @@ def calculator():
         entry = input(f"Type 'y' to continue calculating with {answer}, type 'n' to start a new calculation, or 'e' to exit: ")
         if entry == 'y':
             num1 = answer
-        else:
+        elif:
             entry == 'n':
             os.system("clear")
             print(logo)
