@@ -66,9 +66,9 @@ def calculator():
             print(logo)
             calculator()
         elif entry == 'e':
-            break
+            should_continue = False
         else:
-            print("Invalid input. Please choose 'y', 'n', or 'e'.")
+            break
 
     os.system('clear')
 
