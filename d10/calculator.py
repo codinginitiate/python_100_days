@@ -66,7 +66,8 @@ def calculator():
             calculator()
         else:
             break
-    
+    os.system('clear')
+
 
 
 calculator()
