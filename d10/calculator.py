@@ -66,6 +66,8 @@ def calculator():
             calculator()
         else:
             should_continue = False
+
+        
     os.system('clear')
 
 
