@@ -62,6 +62,7 @@ def calculator():
         if entry == 'y':
             num1 = answer
         elif entry == 'n':
+            should_continue = False
             os.system("clear")
             print(logo)
             calculator()
