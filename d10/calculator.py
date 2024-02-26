@@ -62,14 +62,12 @@ def calculator():
         if entry == 'y':
             num1 = answer
         elif entry == 'n':
-            should_continue = False
+            should_continue = False # should be in each elif/else statement after if entry == 'y'
             os.system("clear")
             print(logo)
             calculator()
-        elif entry == 'e':
-            should_continue = False
         else:
-            break
+            should_continue = False
 
     os.system('clear')
 
