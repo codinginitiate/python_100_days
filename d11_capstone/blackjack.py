@@ -9,6 +9,7 @@ def deal_cards():
     i = 2
     while i > 0:
         player_cards.append(random.choice(card_list))
+        i-=1
     print(player_cards)
 
 deal_cards()
