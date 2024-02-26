@@ -6,10 +6,12 @@ card_list= [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 def deal_cards():
     card_list= [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     player_cards = []
-    i = 2
+    i = 
     while i > 0:
         player_cards.append(random.choice(card_list))
         i-=1
-    print(player_cards)
+    return player_cards[0], player_cards[1]
+
+d
 
 deal_cards()
