@@ -2,6 +2,9 @@ import random
 import hangman_art
 import hangman_words
 import pyfiglet
+import os
+
+os.system('clear')
 
 word_list = hangman_words.word_list
 guesses = []
