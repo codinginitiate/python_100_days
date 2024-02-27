@@ -1,6 +1,22 @@
-
+"
 word_list = [
-    '
+"annoy,"
+attention
+calm
+comfortable
+consequences
+curious
+curve
+decide
+directions
+discover
+disappointed
+embarrassed
+enormous
+exhausted
+explore
+fair
+fascinating
 ]
 '''
 word_list = [
@@ -219,3 +235,4 @@ word_list = [
 'zombie',
 ]
 '''
+"
