@@ -1,29 +1,6 @@
 
 word_list = [
-add	    been	chain
-again	bike	chalk
-any	    bill	draw
-apple	belt	dress
-apart	bird	drop
-baby	cube	dull
-bake	crowd	dark
-banana	crown	deal
-black	case	desk
-bone	chair	door
-eleven	goat	hence
-each	gown	heard
-sun	    grill	hire
-east	get	    hat
-eight	gap	    fast
-fell	hen	    few
-field	fine	moon
-home	ran	    cow
-top	    table	keep
-cap	    begin	jump
-outside	friend	time
-fun	    family	mother
-father	with	more
-show	pay	light
+    '
 ]
 '''
 word_list = [
