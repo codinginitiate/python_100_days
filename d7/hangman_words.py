@@ -1,8 +1,8 @@
 "
 word_list = [
-"annoy,"
-attention
-calm
+"annoy",
+"attention"
+"calm,"
 comfortable
 consequences
 curious
